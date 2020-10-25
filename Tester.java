@@ -15,7 +15,11 @@ public class Tester{
     //System.out.println(Arrays.toString(ArrayOps.sumCols(rectangle)));
     int[][] sumRowsMagic = {{1, 1, 1}, {2, 2, 2}, {3, 3, 3}};
     int[][] sumRowsMagic1 = {{1, 2, 3}, {5, 1, 0}, {2, 2, 2}};
-    System.out.println(ArrayOps.isRowMagic(sumRowsMagic));
-    System.out.println(ArrayOps.isRowMagic(sumRowsMagic1));
+    //System.out.println(ArrayOps.isRowMagic(sumRowsMagic));
+    //System.out.println(ArrayOps.isRowMagic(sumRowsMagic1));
+    int[][] sumColsMagic = {{1, 1, 1}, {2, 2, 2}, {3, 3, 3}};
+    int[][] sumColsMagic1 = {{1, 2, 3}, {5, 1, 0}, {2, 2, 2}};
+    System.out.println(ArrayOps.isColMagic(sumRowsMagic));
+    System.out.println(ArrayOps.isColMagic(sumRowsMagic1));
   }
 }
