@@ -60,5 +60,22 @@ public class ArrayOps{
     return true;
   }
 
+  public static int sumOfEachColumn(int[][] matrix, int column){
+    int x = 0;
+    for(int i = 0; i < matrix.length; i++){
+      x = x + matrix[i][column];
+    }
+    return x;
+  }
+  public static boolean isColMagic(int[][] matrix){
+    int x = sumOfEachColumn(matrix, 0);
+    for(int i = 1; i< matrix[0].length; i++){
+      if(sumOfEachColumn(matrix, i) != sumOfEachColumn(matrix, i - 1)){
+        return false;
+      }
+    }
+    return true;
+  }
+
 
 }
