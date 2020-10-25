@@ -19,7 +19,10 @@ public class Tester{
     //System.out.println(ArrayOps.isRowMagic(sumRowsMagic1));
     int[][] sumColsMagic = {{1, 1, 1}, {2, 2, 2}, {3, 3, 3}};
     int[][] sumColsMagic1 = {{1, 2, 3}, {5, 1, 0}, {2, 2, 2}};
-    System.out.println(ArrayOps.isColMagic(sumRowsMagic));
-    System.out.println(ArrayOps.isColMagic(sumRowsMagic1));
+    //System.out.println(ArrayOps.isColMagic(sumRowsMagic));
+    //System.out.println(ArrayOps.isColMagic(sumRowsMagic1));
+    int[][] colRow = {{2, 4, 2}, {2, 2, 2}};
+    //System.out.println(ArrayOps.isLocationMagic(colRow, 0, 1));
+    //System.out.println(ArrayOps.isLocationMagic(colRow, 1, 1));
   }
 }
