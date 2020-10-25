@@ -12,6 +12,10 @@ public class Tester{
     //System.out.println(Arrays.toString(ArrayOps.largestInRows(matrix)));
     //System.out.println(ArrayOps.sum(matrix));
     int[][] rectangle = {{1, 2, 3, 4}, {-1, -2, -3, -4}, {10, 20, 30, 40}};
-    System.out.println(Arrays.toString(ArrayOps.sumCols(rectangle)));
+    //System.out.println(Arrays.toString(ArrayOps.sumCols(rectangle)));
+    int[][] sumRowsMagic = {{1, 1, 1}, {2, 2, 2}, {3, 3, 3}};
+    int[][] sumRowsMagic1 = {{1, 2, 3}, {5, 1, 0}, {2, 2, 2}};
+    System.out.println(ArrayOps.isRowMagic(sumRowsMagic));
+    System.out.println(ArrayOps.isRowMagic(sumRowsMagic1));
   }
 }
